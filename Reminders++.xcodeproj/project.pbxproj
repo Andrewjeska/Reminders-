@@ -15,6 +15,7 @@
 		FDB940CD1C8C18DB00CFC09E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB940CB1C8C18DB00CFC09E /* LaunchScreen.storyboard */; };
 		FDB940D81C8C18DB00CFC09E /* Reminders___1_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB940D71C8C18DB00CFC09E /* Reminders___1_Tests.swift */; };
 		FDB940E31C8C18DB00CFC09E /* Reminders___1_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB940E21C8C18DB00CFC09E /* Reminders___1_UITests.swift */; };
+		FDB940F11C8C19DE00CFC09E /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB940F01C8C19DE00CFC09E /* TaskManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FDB940BD1C8C18DB00CFC09E /* Reminders++(1).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reminders++(1).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB940BD1C8C18DB00CFC09E /* Reminders++.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reminders++.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB940C01C8C18DB00CFC09E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDB940C21C8C18DB00CFC09E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		FDB940C41C8C18DB00CFC09E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -43,12 +44,13 @@
 		FDB940C91C8C18DB00CFC09E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDB940CC1C8C18DB00CFC09E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDB940CE1C8C18DB00CFC09E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FDB940D31C8C18DB00CFC09E /* Reminders++(1)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reminders++(1)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB940D31C8C18DB00CFC09E /* Reminders++.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reminders++.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB940D71C8C18DB00CFC09E /* Reminders___1_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reminders___1_Tests.swift"; sourceTree = "<group>"; };
 		FDB940D91C8C18DB00CFC09E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FDB940DE1C8C18DB00CFC09E /* Reminders++(1)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reminders++(1)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB940DE1C8C18DB00CFC09E /* Reminders++.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reminders++.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB940E21C8C18DB00CFC09E /* Reminders___1_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reminders___1_UITests.swift"; sourceTree = "<group>"; };
 		FDB940E41C8C18DB00CFC09E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB940F01C8C19DE00CFC09E /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +81,9 @@
 		FDB940B41C8C18DB00CFC09E = {
 			isa = PBXGroup;
 			children = (
-				FDB940BF1C8C18DB00CFC09E /* Reminders++(1) */,
-				FDB940D61C8C18DB00CFC09E /* Reminders++(1)Tests */,
-				FDB940E11C8C18DB00CFC09E /* Reminders++(1)UITests */,
+				FDB940BF1C8C18DB00CFC09E /* Reminders++ */,
+				FDB940D61C8C18DB00CFC09E /* Reminders++Tests */,
+				FDB940E11C8C18DB00CFC09E /* Reminders++UITests */,
 				FDB940BE1C8C18DB00CFC09E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +91,14 @@
 		FDB940BE1C8C18DB00CFC09E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FDB940BD1C8C18DB00CFC09E /* Reminders++(1).app */,
-				FDB940D31C8C18DB00CFC09E /* Reminders++(1)Tests.xctest */,
-				FDB940DE1C8C18DB00CFC09E /* Reminders++(1)UITests.xctest */,
+				FDB940BD1C8C18DB00CFC09E /* Reminders++.app */,
+				FDB940D31C8C18DB00CFC09E /* Reminders++.xctest */,
+				FDB940DE1C8C18DB00CFC09E /* Reminders++.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FDB940BF1C8C18DB00CFC09E /* Reminders++(1) */ = {
+		FDB940BF1C8C18DB00CFC09E /* Reminders++ */ = {
 			isa = PBXGroup;
 			children = (
 				FDB940C01C8C18DB00CFC09E /* AppDelegate.swift */,
@@ -106,34 +108,37 @@
 				FDB940C91C8C18DB00CFC09E /* Assets.xcassets */,
 				FDB940CB1C8C18DB00CFC09E /* LaunchScreen.storyboard */,
 				FDB940CE1C8C18DB00CFC09E /* Info.plist */,
+				FDB940F01C8C19DE00CFC09E /* TaskManager.swift */,
 			);
-			path = "Reminders++(1)";
+			path = "Reminders++";
 			sourceTree = "<group>";
 		};
-		FDB940D61C8C18DB00CFC09E /* Reminders++(1)Tests */ = {
+		FDB940D61C8C18DB00CFC09E /* Reminders++Tests */ = {
 			isa = PBXGroup;
 			children = (
 				FDB940D71C8C18DB00CFC09E /* Reminders___1_Tests.swift */,
 				FDB940D91C8C18DB00CFC09E /* Info.plist */,
 			);
+			name = "Reminders++Tests";
 			path = "Reminders++(1)Tests";
 			sourceTree = "<group>";
 		};
-		FDB940E11C8C18DB00CFC09E /* Reminders++(1)UITests */ = {
+		FDB940E11C8C18DB00CFC09E /* Reminders++UITests */ = {
 			isa = PBXGroup;
 			children = (
 				FDB940E21C8C18DB00CFC09E /* Reminders___1_UITests.swift */,
 				FDB940E41C8C18DB00CFC09E /* Info.plist */,
 			);
+			name = "Reminders++UITests";
 			path = "Reminders++(1)UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FDB940BC1C8C18DB00CFC09E /* Reminders++(1) */ = {
+		FDB940BC1C8C18DB00CFC09E /* Reminders++ */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FDB940E71C8C18DB00CFC09E /* Build configuration list for PBXNativeTarget "Reminders++(1)" */;
+			buildConfigurationList = FDB940E71C8C18DB00CFC09E /* Build configuration list for PBXNativeTarget "Reminders++" */;
 			buildPhases = (
 				FDB940B91C8C18DB00CFC09E /* Sources */,
 				FDB940BA1C8C18DB00CFC09E /* Frameworks */,
@@ -143,14 +148,14 @@
 			);
 			dependencies = (
 			);
-			name = "Reminders++(1)";
+			name = "Reminders++";
 			productName = "Reminders++(1)";
-			productReference = FDB940BD1C8C18DB00CFC09E /* Reminders++(1).app */;
+			productReference = FDB940BD1C8C18DB00CFC09E /* Reminders++.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FDB940D21C8C18DB00CFC09E /* Reminders++(1)Tests */ = {
+		FDB940D21C8C18DB00CFC09E /* Reminders++Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FDB940EA1C8C18DB00CFC09E /* Build configuration list for PBXNativeTarget "Reminders++(1)Tests" */;
+			buildConfigurationList = FDB940EA1C8C18DB00CFC09E /* Build configuration list for PBXNativeTarget "Reminders++Tests" */;
 			buildPhases = (
 				FDB940CF1C8C18DB00CFC09E /* Sources */,
 				FDB940D01C8C18DB00CFC09E /* Frameworks */,
@@ -161,14 +166,14 @@
 			dependencies = (
 				FDB940D51C8C18DB00CFC09E /* PBXTargetDependency */,
 			);
-			name = "Reminders++(1)Tests";
+			name = "Reminders++Tests";
 			productName = "Reminders++(1)Tests";
-			productReference = FDB940D31C8C18DB00CFC09E /* Reminders++(1)Tests.xctest */;
+			productReference = FDB940D31C8C18DB00CFC09E /* Reminders++.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FDB940DD1C8C18DB00CFC09E /* Reminders++(1)UITests */ = {
+		FDB940DD1C8C18DB00CFC09E /* Reminders++UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FDB940ED1C8C18DB00CFC09E /* Build configuration list for PBXNativeTarget "Reminders++(1)UITests" */;
+			buildConfigurationList = FDB940ED1C8C18DB00CFC09E /* Build configuration list for PBXNativeTarget "Reminders++UITests" */;
 			buildPhases = (
 				FDB940DA1C8C18DB00CFC09E /* Sources */,
 				FDB940DB1C8C18DB00CFC09E /* Frameworks */,
@@ -179,9 +184,9 @@
 			dependencies = (
 				FDB940E01C8C18DB00CFC09E /* PBXTargetDependency */,
 			);
-			name = "Reminders++(1)UITests";
+			name = "Reminders++UITests";
 			productName = "Reminders++(1)UITests";
-			productReference = FDB940DE1C8C18DB00CFC09E /* Reminders++(1)UITests.xctest */;
+			productReference = FDB940DE1C8C18DB00CFC09E /* Reminders++.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FDB940B81C8C18DB00CFC09E /* Build configuration list for PBXProject "Reminders++(1)" */;
+			buildConfigurationList = FDB940B81C8C18DB00CFC09E /* Build configuration list for PBXProject "Reminders++" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +225,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FDB940BC1C8C18DB00CFC09E /* Reminders++(1) */,
-				FDB940D21C8C18DB00CFC09E /* Reminders++(1)Tests */,
-				FDB940DD1C8C18DB00CFC09E /* Reminders++(1)UITests */,
+				FDB940BC1C8C18DB00CFC09E /* Reminders++ */,
+				FDB940D21C8C18DB00CFC09E /* Reminders++Tests */,
+				FDB940DD1C8C18DB00CFC09E /* Reminders++UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,6 +266,7 @@
 			files = (
 				FDB940C51C8C18DB00CFC09E /* SecondViewController.swift in Sources */,
 				FDB940C11C8C18DB00CFC09E /* AppDelegate.swift in Sources */,
+				FDB940F11C8C19DE00CFC09E /* TaskManager.swift in Sources */,
 				FDB940C31C8C18DB00CFC09E /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,12 +292,12 @@
 /* Begin PBXTargetDependency section */
 		FDB940D51C8C18DB00CFC09E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FDB940BC1C8C18DB00CFC09E /* Reminders++(1) */;
+			target = FDB940BC1C8C18DB00CFC09E /* Reminders++ */;
 			targetProxy = FDB940D41C8C18DB00CFC09E /* PBXContainerItemProxy */;
 		};
 		FDB940E01C8C18DB00CFC09E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FDB940BC1C8C18DB00CFC09E /* Reminders++(1) */;
+			target = FDB940BC1C8C18DB00CFC09E /* Reminders++ */;
 			targetProxy = FDB940DF1C8C18DB00CFC09E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -406,7 +412,7 @@
 				INFOPLIST_FILE = "Reminders++(1)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "self.Reminders---1-";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Reminders++";
 			};
 			name = Debug;
 		};
@@ -417,7 +423,7 @@
 				INFOPLIST_FILE = "Reminders++(1)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "self.Reminders---1-";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Reminders++";
 			};
 			name = Release;
 		};
@@ -428,8 +434,8 @@
 				INFOPLIST_FILE = "Reminders++(1)Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "self.Reminders---1-Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reminders++(1).app/Reminders++(1)";
+				PRODUCT_NAME = "Reminders++";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reminders++.app/Reminders++";
 			};
 			name = Debug;
 		};
@@ -440,8 +446,8 @@
 				INFOPLIST_FILE = "Reminders++(1)Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "self.Reminders---1-Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reminders++(1).app/Reminders++(1)";
+				PRODUCT_NAME = "Reminders++";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reminders++.app/Reminders++";
 			};
 			name = Release;
 		};
@@ -451,7 +457,7 @@
 				INFOPLIST_FILE = "Reminders++(1)UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "self.Reminders---1-UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Reminders++";
 				TEST_TARGET_NAME = "Reminders++(1)";
 				USES_XCTRUNNER = YES;
 			};
@@ -463,7 +469,7 @@
 				INFOPLIST_FILE = "Reminders++(1)UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "self.Reminders---1-UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Reminders++";
 				TEST_TARGET_NAME = "Reminders++(1)";
 				USES_XCTRUNNER = YES;
 			};
@@ -472,7 +478,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FDB940B81C8C18DB00CFC09E /* Build configuration list for PBXProject "Reminders++(1)" */ = {
+		FDB940B81C8C18DB00CFC09E /* Build configuration list for PBXProject "Reminders++" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FDB940E51C8C18DB00CFC09E /* Debug */,
@@ -481,29 +487,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FDB940E71C8C18DB00CFC09E /* Build configuration list for PBXNativeTarget "Reminders++(1)" */ = {
+		FDB940E71C8C18DB00CFC09E /* Build configuration list for PBXNativeTarget "Reminders++" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FDB940E81C8C18DB00CFC09E /* Debug */,
 				FDB940E91C8C18DB00CFC09E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		FDB940EA1C8C18DB00CFC09E /* Build configuration list for PBXNativeTarget "Reminders++(1)Tests" */ = {
+		FDB940EA1C8C18DB00CFC09E /* Build configuration list for PBXNativeTarget "Reminders++Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FDB940EB1C8C18DB00CFC09E /* Debug */,
 				FDB940EC1C8C18DB00CFC09E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		FDB940ED1C8C18DB00CFC09E /* Build configuration list for PBXNativeTarget "Reminders++(1)UITests" */ = {
+		FDB940ED1C8C18DB00CFC09E /* Build configuration list for PBXNativeTarget "Reminders++UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FDB940EE1C8C18DB00CFC09E /* Debug */,
 				FDB940EF1C8C18DB00CFC09E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

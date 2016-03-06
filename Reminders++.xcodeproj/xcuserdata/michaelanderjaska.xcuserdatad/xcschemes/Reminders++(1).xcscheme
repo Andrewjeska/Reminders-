@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FDB940BC1C8C18DB00CFC09E"
-               BuildableName = "Reminders++(1).app"
-               BlueprintName = "Reminders++(1)"
-               ReferencedContainer = "container:Reminders++(1).xcodeproj">
+               BuildableName = "Reminders++.app"
+               BlueprintName = "Reminders++"
+               ReferencedContainer = "container:Reminders++.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FDB940D21C8C18DB00CFC09E"
-               BuildableName = "Reminders++(1)Tests.xctest"
-               BlueprintName = "Reminders++(1)Tests"
-               ReferencedContainer = "container:Reminders++(1).xcodeproj">
+               BuildableName = "Reminders++.xctest"
+               BlueprintName = "Reminders++Tests"
+               ReferencedContainer = "container:Reminders++.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FDB940DD1C8C18DB00CFC09E"
-               BuildableName = "Reminders++(1)UITests.xctest"
-               BlueprintName = "Reminders++(1)UITests"
-               ReferencedContainer = "container:Reminders++(1).xcodeproj">
+               BuildableName = "Reminders++.xctest"
+               BlueprintName = "Reminders++UITests"
+               ReferencedContainer = "container:Reminders++.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FDB940BC1C8C18DB00CFC09E"
-            BuildableName = "Reminders++(1).app"
-            BlueprintName = "Reminders++(1)"
-            ReferencedContainer = "container:Reminders++(1).xcodeproj">
+            BuildableName = "Reminders++.app"
+            BlueprintName = "Reminders++"
+            ReferencedContainer = "container:Reminders++.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FDB940BC1C8C18DB00CFC09E"
-            BuildableName = "Reminders++(1).app"
-            BlueprintName = "Reminders++(1)"
-            ReferencedContainer = "container:Reminders++(1).xcodeproj">
+            BuildableName = "Reminders++.app"
+            BlueprintName = "Reminders++"
+            ReferencedContainer = "container:Reminders++.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FDB940BC1C8C18DB00CFC09E"
-            BuildableName = "Reminders++(1).app"
-            BlueprintName = "Reminders++(1)"
-            ReferencedContainer = "container:Reminders++(1).xcodeproj">
+            BuildableName = "Reminders++.app"
+            BlueprintName = "Reminders++"
+            ReferencedContainer = "container:Reminders++.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
